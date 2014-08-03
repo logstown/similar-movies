@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Movies!</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/jquery-ui.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="row-fluid">
+  			<div class="span12 center">
+				<form class="form-inline">
+					<label>Find movies similar to:</label>
+					<input id="search" type="text" placeholder="Enter a movie..." class="input-xlarge" />
+					<span> 
+						<strong> Click on similar movies to get more... </strong>
+					</span>
+				</form>
+			</div>
+		</div>
+		<div id="graph" class="container-fluid">
+			<canvas id="viewport"></canvas>
+		</div>
+			
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/arbor.js"></script>	
+	<script src="js/arbor-tween.js"></script>	
+	<script src="js/graphics.js"></script>	
+	<script src="js/renderer.js"></script>	
+	<script src="js/main.js"></script>	
+	</body>
+</html>
